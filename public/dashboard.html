@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <title>Digital Census - Dashboard</title>
+    <script src="script/scr.js"></script>
+</head>
+
+<body>
+    <div class="top_portion">
+        <div class="Logo"><a href="#">Digital Census</a></div>
+        <ul>
+            <li class="Navbar"><a href="#">Home</a></li>
+            <li class="Navbar"><a href="#">About Us</a></li>
+            <li class="Navbar"><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="Main_body">
+        <div class="Main_body_left">
+            <div class="Left_head">Dashboard</div>
+            <div class="Left_body">
+                <div class="Box">
+                    <div class="Box_design_upper">
+                        <div class="Box_upper_info"><img src="img/User2.png" alt="Email_img" id="User_logo">
+                            <div class="Upper_head" id="Upper_head">Name - <%= Name %> </div>
+                        </div>
+                        <div class="Box_upper_info"><img src="img/Email_logo1.jpg" alt="Email_img" id="Email_logo">
+                            <div class="Upper_head2">Email - {%mail%} </div>
+                        </div>
+                        <div class="Box_upper_info"><img src="img/Phone1.png" alt="phone_img" id="Phone_logo">
+                            <div class="Upper_head3">Phone No. - {%number%}</div>
+                        </div>
+                    </div>
+                    <div class="Box_head">Information</div>
+                    <div class="Box_design_lower">
+                        Q-1 Does you have your own house?<br>
+                        Ans - <br>
+                        Q-2 How many television you have ?<br>
+                        Ans - <br>
+                        Q-3 How many member in your house ?<br>
+                        Ans - <br>
+                        Q-4 Does you have landfarm , If yes then how much (In bigaas) ?<br>
+                        Ans - <br>
+                        Q-5 Do you have "A WELL" or "A TUBE WELL" in your landfarm ?<br>
+                        Ans - <br>
+                        Q-6 what's your family monthly income (In rupees) ?<br>
+                        Ans - <br>
+                        Q-7 Does you have "Two Vehicle" , If yes then how much ?<br>
+                        Ans - <br>
+                        Q-8 Does you have "Four Vehicle" , If yes then how much ?<br>
+                        Ans - <br>
+                    </div>
+                </div>
+                <div class="btn_design">
+                    <a href="./update.html"><button class="btn">Update Information</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

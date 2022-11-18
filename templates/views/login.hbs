@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Digital Census - Login</title>
+</head>
+
+<body>
+    <div class="main_card">
+        <div class="Center_Body">
+            <div id="Top_Bar">
+                Digital Census
+            </div>
+            <div id="Main_1st">Login</div>
+            <form action="/login" method="POST">
+                <div class="Sign_details">
+                    <div class="Login_forms">
+                        <img src="img/Email_logo1.jpg" alt="Email_img" id="Email_logo">
+                        <input type="email"  value="" placeholder="Enter Your Email" name="email">
+                    </div>
+                    <div class="Login_forms">
+                        <img src="img/pass_logo1.jpg" alt="password_img" id="Pass_logo"> 
+                        <input type="password"  value=""  placeholder="Enter Your password" name="password">
+                    </div>
+                    <div id="forget_text"><a href="#">Forgot password?</a></div>
+                    <button class="button" type="submit">Login</button>
+                    <div id="D_text">Don't have an account?
+                        <a href="./register">Signup here</a>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

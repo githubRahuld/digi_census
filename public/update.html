@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/update.css">
+    <title>Digital Census - Home</title>
+</head>
+    <title>
+        updation form 
+    </title>
+    <link rel="stylesheet" href="css/update.css">
+</head>
+  
+<body>
+    <h1>"Updation" for <i>digital census</i></h1>
+  
+        <form action="/update" method="POST">
+            <!-- Create Form -->
+    <form id="form">
+ 
+        <!-- Details -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   name="name"
+                   id="name"
+                   placeholder="Enter your name" />
+        </div>
+  
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+ 
+            <!-- Input Type Email-->
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Enter your email" />
+        </div>
+  
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+ 
+            <!-- Input Type Text -->
+            <input type="text"
+                   id="age"
+                   name="age"
+                   placeholder="Enter your age" />
+        </div>
+        <div class="form-control">
+            <label for="aadhar" id="label-email">
+                Age
+            </label>
+ 
+            <!-- Input Type Aadhar number-->
+            <input type="number"
+                   id="aadhar"
+                   name="aadhar"
+                   placeholder="Enter your Aadhar Number" />
+        </div>
+
+  
+        <div class="form-control">
+
+            <!--que1-->
+
+            <label>
+                Q-1 Does you have your own house?
+            </label>
+ 
+            <!-- Input Type Radio Button -->
+           
+            <label for="recommed-1">
+                <input type="radio"
+                       id="recommed-1"
+                       value="Yes"
+                       name="recommed_q1">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio"
+                       id="recommed-2"
+                       value="No"
+                       name="recommed_q1">No</input>
+            </label><br>
+         
+            <!--Que2 -->
+                
+                <label>
+                    Q-2 How many television you have ?
+                </label>
+     
+                <!-- Input Type Radio Button -->
+                <label for="recommed-1">
+                    <input type="radio"
+                           id="recommed-1"
+                           value="Zero"
+                           name="recommed_q2">Zero</input>
+                </label>
+                <label for="recommed-2">
+                    <input type="radio"
+                           id="recommed-2"
+                           value="One"
+                           name="recommed_q2">One</input>
+                </label>
+                <label for="recommed-3">
+                    <input type="radio"
+                           id="recommed-3"
+                           value="Two"
+                           name="recommed_q2">Two</input>
+                </label>
+                <label for="recommed-4">
+                    <input type="radio"
+                           id="recommed-4"
+                           value="Three or more"
+                           name="recommed_q2">Three or more</input>
+                </label><br>
+
+                  <!--Que3 -->
+                 
+                    <label>
+                       Q-3 How many member in your house ?
+                   </label>
+        
+                   <!-- Input Type Radio Button -->
+                   <label for="recommed-1">
+                       <input type="radio"
+                              id="recommed-1"
+                              value="One"
+                              name="recommed_q3">One</input>
+                   </label>
+                   <label for="recommed-2">
+                       <input type="radio"
+                              id="recommed-2"
+                              value="Two"
+                              name="recommed_q3">Two</input>
+                   </label>
+                   <label for="recommed-3">
+                       <input type="radio"
+                              id="recommed-3"
+                              value="Three"
+                              name="recommed_q3">Three</input>
+                   </label>
+                   <label for="recommed-4">
+                       <input type="radio"
+                              id="recommed-4"
+                              value="Four or more"
+                              name="recommed_q3">Four or more</input>
+                   </label><br>
+
+                     <!--Que4 -->
+                <label>
+                    Q-4 Does you have landfarm , If yes then how much (In bigaas) ?
+                </label>
+     
+                <!-- Input Type Radio Button -->
+                <label for="recommed-1">
+                    <input type="radio"
+                           id="recommed-1"
+                           value="1 to 3"
+                           name="recommed_q4">1 to 3</input>
+                </label>
+                <label for="recommed-2">
+                    <input type="radio"
+                           id="recommed-2"
+                            value="4 to 5"
+                           name="recommed_q4">4 to 5</input>
+                </label>
+                <label for="recommed-3">
+                    <input type="radio"
+                           id="recommed-3"
+                           value="6 to 10"
+                           name="recommed_q4">6 to 10</input>
+                </label>
+                <label for="recommed-4">
+                    <input type="radio"
+                           id="recommed-4"
+                           value="11 to 20"
+                           name="recommed_q4">11 to 20</input>
+                </label><br>
+
+                <!--Que5 -->
+                    <label>
+                       Q-5 Do you have "A WELL" or "A TUBE WELL" in your landfarm ?
+                   </label>
+        
+                   <!-- Input Type Radio Button -->
+                  
+                   <label for="recommed-1">
+                       <input type="radio"
+                              id="recommed-1"
+                              value="Yes"
+                              name="recommed_q5">Yes</input>
+                   </label>
+                   <label for="recommed-2">
+                       <input type="radio"
+                              id="recommed-2"
+                              value="No"
+                              name="recommed_q5">No</input>
+                   </label><br>
+
+                   <!--Que6-->
+                    Q-6 what's your family monthly income (In rupees)  ?
+                </label><br><br>
+     
+                <!-- Input Type Radio Button -->
+                <label for="recommed-1">
+                    <input type="radio"
+                           id="recommed-1"
+                           value="2000 to 10000"
+                           name="recommed_q6">2000 to 10000</input>
+                </label>
+                <label for="recommed-2">
+                    <input type="radio"
+                           id="recommed-2"
+                           value="11000 to 20000"
+                           name="recommed_q6">11000 to 20000</input>
+                </label>
+                <label for="recommed-3">
+                    <input type="radio"
+                           id="recommed-3"
+                           value="21000 to 35000"
+                           name="recommed_q6">21000 to 35000</input>
+                </label>
+                <label for="recommed-4">
+                    <input type="radio"
+                           id="recommed-4"
+                           value="36000 to 50000"
+                           name="recommed_q6">36000 to 50000</input>
+                </label>
+                <label for="recommed-5">
+                    <input type="radio"
+                           id="recommed-5"
+                           value="510000+"
+                           name="recommed_q6">510000+</input>
+                </label><br>
+
+                <!--Que7-->
+                <label>
+                    Q-7 Does you have "Two Vehicle" , If yes then how much ?
+                </label>
+     
+                <!-- Input Type Radio Button -->
+                <label for="recommed-1">
+                    <input type="radio"
+                           id="recommed-1"
+                           value="One"
+                           name="recommed_q7">One</input>
+                </label>
+                <label for="recommed-2">
+                    <input type="radio"
+                           id="recommed-2"
+                           value="Two"
+                           name="recommed_q7">Two</input>
+                </label>
+                <label for="recommed-3">
+                    <input type="radio"
+                           id="recommed-3"
+                           value="Three"
+                           name="recommed_q7">Three</input>
+                </label>
+                <label for="recommed-4">
+                    <input type="radio"
+                           id="recommed-4"
+                           value="Four+"
+                           name="recommed_q7">Four+</input>
+                </label><br>
+
+                 <!--Que8-->
+                <label>
+                 Q-8 Does you have "Four Vehicle" , If yes then how much ?
+                </label>
+   
+               <!-- Input Type Radio Button -->
+               <label for="recommed-1">
+                <input type="radio"
+                      id="recommed-1"
+                      value="One"
+                      name="recommed_q8">One</input>
+               </label>
+               <label for="recommed-2">
+                 <input type="radio"
+                      id="recommed-2"
+                      value="Two"
+                      name="recommed_q8">Two</input>
+                </label>
+                <label for="recommed-3">
+                <input type="radio"
+                      id="recommed-3"
+                      value="Three+"
+                      name="recommed_q8">Three+</input>
+                </label><br>
+        </div>
+
+  
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+ 
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+  
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit">
+            Submit
+        </button>
+        </form>
+    </form>
+</body>
+  
+</html>

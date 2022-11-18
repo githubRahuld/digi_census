@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/update.css">
+    <title>Digital Census - Home</title>
+</head>
+<body>
+         
+        <div class="hading">
+        <h2><i>digital census</i></h2>
+        </div>
+        <div class="container">
+        <div>
+
+            <h4>* Insert your details below , which includes all about your family and poverty :</h4>
+         <form action="/insert" method="POST">
+
+            <div class="form-control">
+                <label for="name" id="label-name">
+                    Name
+                </label>
+     
+                <!-- Input Type Text -->
+                <input type="text"
+                       name="name"
+                       id="name"
+                       placeholder="Enter your name" />
+            </div>
+      
+            <div class="form-control">
+                <label for="email" id="label-email">
+                    Email
+                </label>
+     
+                <!-- Input Type Email-->
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Enter your email" />
+            </div>
+            <div class="form-control">
+                <label for="age" id="label-email">
+                    Age
+                </label>
+     
+                <!-- Input Type Age-->
+                <input type="number"
+                       id="age"
+                       name="age"
+                       placeholder="Enter your Age" />
+            </div>
+            <div class="form-control">
+                <label for="aadhar" id="label-email">
+                    Age
+                </label>
+     
+                <!-- Input Type Aadhar number-->
+                <input type="number"
+                       id="aadhar"
+                       name="aadhar"
+                       placeholder="Enter your Aadhar Number" />
+            </div>
+            
+            <div class="questions">
+                <div class="que1_form">
+                   
+                   <label>
+                       Q-1 Does you have your own house?
+                   </label><br><br>
+        
+                   <!-- Input Type Radio Button -->
+                  
+                   <label for="recommed-1">
+                       <input type="radio"
+                              id="recommed-1"
+                              value="Yes"
+                              name="recommed_q1">Yes</input>
+                   </label>
+                   <label for="recommed-2">
+                       <input type="radio"
+                              id="recommed-2"
+                              value="No"
+                              name="recommed_q1">No</input>
+                   </label><br><br><br>
+                </div>
+                    <!--Que2 -->
+                    <div class="que2_form">
+                   
+                   <label>
+                       Q-2 How many television you have ?
+                   </label><br><br>
+        
+                   <!-- Input Type Radio Button -->
+                   <label for="recommed-1">
+                       <input type="radio"
+                              id="recommed-1"
+                              value="Zero"
+                              name="recommed_q2">Zero</input>
+                   </label>
+                   <label for="recommed-2">
+                       <input type="radio"
+                              id="recommed-2"
+                              value="One"
+                              name="recommed_q2">One</input>
+                   </label>
+                   <label for="recommed-3">
+                       <input type="radio"
+                              id="recommed-3"
+                              value="Two"
+                              name="recommed_q2">Two</input>
+                   </label>
+                   <label for="recommed-4">
+                       <input type="radio"
+                              id="recommed-4"
+                              value="Three or more"
+                              name="recommed_q2">Three or more</input>
+                   </label><br><br><br>
+                   </div>
+                    <!--Que3 -->
+                    <div class="que3_form">
+                    <label>
+                       Q-3 How many member in your house ?
+                   </label><br><br>
+        
+                   <!-- Input Type Radio Button -->
+                   <label for="recommed-1">
+                       <input type="radio"
+                              id="recommed-1"
+                              value="One"
+                              name="recommed_q3">One</input>
+                   </label>
+                   <label for="recommed-2">
+                       <input type="radio"
+                              id="recommed-2"
+                              value="Two"
+                              name="recommed_q3">Two</input>
+                   </label>
+                   <label for="recommed-3">
+                       <input type="radio"
+                              id="recommed-3"
+                              value="Three"
+                              name="recommed_q3">Three</input>
+                   </label>
+                   <label for="recommed-4">
+                       <input type="radio"
+                              id="recommed-4"
+                              value="Four or more"
+                              name="recommed_q3">Four or more</input>
+                   </label><br><br><br>
+                  </div>  
+   
+                  <div class="que4_form">
+                   <!--Que4 -->
+                   <label>
+                       Q-4 Does you have landfarm , If yes then how much (In bigaas) ?
+                   </label><br><br>
+        
+                   <!-- Input Type Radio Button -->
+                   <label for="recommed-1">
+                       <input type="radio"
+                              id="recommed-1"
+                              value="1 to 3"
+                              name="recommed_q4">1 to 3</input>
+                   </label>
+                   <label for="recommed-2">
+                       <input type="radio"
+                              id="recommed-2"
+                              value="4 to 5"
+                              name="recommed_q4">4 to 5</input>
+                   </label>
+                   <label for="recommed-3">
+                       <input type="radio"
+                              id="recommed-3"
+                              value="6 to 10"
+                              name="recommed_q4">6 to 10</input>
+                   </label>
+                   <label for="recommed-4">
+                       <input type="radio"
+                              id="recommed-4"
+                              value="11 to 20"
+                              name="recommed_q4">11 to 20</input>
+                   </label><br><br><br>
+                  </div>
+                    <!--Que5 -->
+   
+                    <div class="que5_form">
+                    <label>
+                       Q-5 Do you have "A WELL" or "A TUBE WELL" in your landfarm ?
+                   </label><br><br>
+        
+                   <!-- Input Type Radio Button -->
+                  
+                   <label for="recommed-1">
+                       <input type="radio"
+                              id="recommed-1"
+                              value="Yes"
+                              name="recommed_q5">Yes</input>
+                   </label>
+                   <label for="recommed-2">
+                       <input type="radio"
+                              id="recommed-2"
+                              value="No"
+                              name="recommed_q5">No</input>
+                   </label><br><br><br>
+               </div>
+                   <!--Que6-->
+   
+                   <div class="que6_form">
+                   Q-6 what's your family monthly income (In rupees)  ?
+               </label><br><br>
+    
+               <!-- Input Type Radio Button -->
+               <label for="recommed-1">
+                   <input type="radio"
+                          id="recommed-1"
+                          value="2000 to 10000"
+                          name="recommed_q6">2000 to 10000</input>
+               </label>
+               <label for="recommed-2">
+                   <input type="radio"
+                          id="recommed-2"
+                          value="11000 to 20000"
+                          name="recommed_q6">11000 to 20000</input>
+               </label>
+               <label for="recommed-3">
+                   <input type="radio"
+                          id="recommed-3"
+                          value="21000 to 35000"
+                          name="recommed_q6">21000 to 35000</input>
+               </label>
+               <label for="recommed-4">
+                   <input type="radio"
+                          id="recommed-4"
+                          value="36000 to 50000"
+                          name="recommed_q6">36000 to 50000</input>
+               </label>
+               <label for="recommed-5">
+                   <input type="radio"
+                          id="recommed-5"
+                          value="510000+"
+                          name="recommed_q6">510000+</input>
+               </label><br><br><br>
+                   </div>
+               <!--Que7-->
+               <div class="que7_form">
+               <label>
+                   Q-7 Does you have "Two Vehicle" , If yes then how much ?
+               </label><br><br>
+    
+               <!-- Input Type Radio Button -->
+               <label for="recommed-1">
+                   <input type="radio"
+                          id="recommed-1"
+                          value="One"
+                          name="recommed_q7">One</input>
+               </label>
+               <label for="recommed-2">
+                   <input type="radio"
+                          id="recommed-2"
+                          value="Two"
+                          name="recommed_q7">Two</input>
+               </label>
+               <label for="recommed-3">
+                   <input type="radio"
+                          id="recommed-3"
+                          value="Three"
+                          name="recommed_q7">Three</input>
+               </label>
+               <label for="recommed-4">
+                   <input type="radio"
+                          id="recommed-4"
+                          value="Four+"
+                          name="recommed_q7">Four+</input>
+               </label><br><br><br>
+               </div>
+                <!--Que8-->
+   
+                <div class="que8_form">
+                <label>
+               Q-8 Does you have "Four Vehicle" , If yes then how much ?
+                </label><br><br>
+   
+               <!-- Input Type Radio Button -->
+               <label for="recommed-1">
+                <input type="radio"
+                      id="recommed-1"
+                      value="One"
+                      name="recommed_q8">One</input>
+               </label>
+               <label for="recommed-2">
+                 <input type="radio"
+                      id="recommed-2"
+                      value="Two"
+                      name="recommed_q8">Two</input>
+                </label>
+                <label for="recommed-3">
+                    <input type="radio"
+                    id="recommed-3"
+                    value="Three+"
+                    name="recommed_q8">Three+</input>
+                </label><br><br><br>
+            </div>
+            
+        </div>
+        <div class="Button_style"><button type="submit" value="submit">Submit</button></div>
+         </form>
+        </div>
+            <div class="para">
+                <h3>All about your information </h3>
+                <p>A census is the procedure of systematically acquiring, recording and calculating information
+                   about the members of a given population. This term is used mostly in connection with national
+                   population and housing censuses; other common censuses include censuses of agriculture,
+                    traditional culture, business, supplies, and traffic censuses. The United Nations defines 
+                    the essential features of population and housing censuses as "individual enumeration,
+                    universality within a defined territory, simultaneity and defined periodicity",
+                    and recommends that population censuses be taken at least every ten years. United Nations
+                   recommendations also cover census topics to be collected, official definitions, classifications
+                    and other useful information to co-ordinate international practices.
+                </p>
+            </div>
+             
+
+        </div>
+
+        
+      
+</body>
+</html>
